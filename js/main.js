@@ -25,10 +25,6 @@ $("#trending").click(function(){
     currentCategeory = "trending/all/day";
 })
 
-$("#upcoming").click(function(){
-    selectList("movie/upcoming")
-    currentCategeory = "movie/upcoming";
-})
 
 $("#home").click(function(){
     selectList("movie/now_playing");
